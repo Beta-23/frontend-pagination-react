@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import Posts from './components/posts/posts.componet';
 import './App.css';
 
 const App = () => {
@@ -18,12 +19,17 @@ const App = () => {
     fetchPosts();
   }, []);
 
+  // getCurrent Posts
+  const indexOfLastPost = currentPage * postsPerPage;
+  const indexOfFirstPost = indexOfLastPost - postsPerPage;
+  const currentPosts = posts.slice(indexOfFirstPost, indexOfLastPost);
+
   // Test json data is hitting
   // console.log(posts);
-
   return (
-    <div className='container'>
-      <h1>Hello World!</h1>
+    <div className='container mt-5'>
+      <h1 className="text-primary-mb-3">Blog Posts!</h1>
+        <Posts posts={currentPosts} loading={loading} />
     </div>
   );
 };
