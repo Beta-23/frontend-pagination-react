@@ -1,8 +1,9 @@
 import React from 'react';
+import { ReactComponent as YourSvg } from '../../assets/Infinity-1s-200px.svg';
 
 const Posts = ({ posts, loading }) => {
     if (loading) {
-        return <h5>Loading...</h5>
+        return <h5><YourSvg/>Loading...</h5>
     }
 
     return <ul className="list-group mb-4">
