@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Posts from './components/posts/posts.component';
 import Pagination from './components/pagination/pagination.component';
+import Header from './components/header/header.component';
 import './App.css';
 
 const App = () => {
@@ -31,7 +32,9 @@ const App = () => {
   // Test json data is hitting
   // console.log(posts);
   return (
+    
     <div className='container mt-5'>
+    <Header />
       <h1 className="text-primary-mb-3">Blog Posts!</h1>
         <Posts posts={currentPosts} loading={loading} />
         <Pagination 
