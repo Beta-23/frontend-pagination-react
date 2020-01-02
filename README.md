@@ -12,6 +12,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Adding Dependencies
 
+#### React Bootstrap 4.3
 #### `"serialize-javascript": "^2.1.1"`
 #### `"@nuxtjs/axios@^5.9.0":`
 
