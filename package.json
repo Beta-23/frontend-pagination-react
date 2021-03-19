@@ -16,6 +16,7 @@
     "lodash": "^4.17.19",
     "minimist": "1.2.5",
     "node-forge": "^0.10.0",
+    "node-notifier": "^8.0.1",
     "object-path": "^0.11.5",
     "react": "^16.12.0",
     "react-dev-utils": "^11.0.4",
