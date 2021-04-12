@@ -4982,7 +4982,7 @@ hsla-regex@^1.0.0:
   resolved "https://registry.yarnpkg.com/hsla-regex/-/hsla-regex-1.0.0.tgz#c1ce7a3168c8c6614033a4b5f7877f3b225f9c38"
   integrity sha1-wc56MWjIxmFAM6S194d/OyJfnDg=
 
-html-comment-regex@^1.1.0:
+html-comment-regex@^1.1.0, html-comment-regex@^1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/html-comment-regex/-/html-comment-regex-1.1.2.tgz#97d4688aeb5c81886a364faa0cad1dda14d433a7"
   integrity sha512-P+M65QY2JQ5Y0G9KKdlDpo0zK+/OHptU5AaBwUfAIDJZk1MYf32Frm84EcOytfJE0t5JvkAnKlmjsXDnWzCJmQ==
@@ -5609,6 +5609,13 @@ is-svg@^3.0.0:
   integrity sha512-gi4iHK53LR2ujhLVVj+37Ykh9GLqYHX6JOVXbLAucaG/Cqw9xwdFOjDM2qeifLs1sF1npXXFvDu0r5HNgCMrzQ==
   dependencies:
     html-comment-regex "^1.1.0"
+
+is-svg@^4.2.2:
+  version "4.2.2"
+  resolved "https://registry.yarnpkg.com/is-svg/-/is-svg-4.2.2.tgz#a4ea0f3f78dada7085db88f1e85b6f845626cfae"
+  integrity sha512-JlA7Mc7mfWjdxxTkJ094oUK9amGD7gQaj5xA/NCY0vlVvZ1stmj4VX+bRuwOMN93IHRZ2ctpPH/0FO6DqvQ5Rw==
+  dependencies:
+    html-comment-regex "^1.1.2"
 
 is-symbol@^1.0.2:
   version "1.0.3"
@@ -8668,7 +8675,7 @@ raf@^3.4.1:
   dependencies:
     performance-now "^2.1.0"
 
-randombytes@^2.0.0, randombytes@^2.0.1, randombytes@^2.0.5, randombytes@^2.1.0:
+randombytes@^2.0.0, randombytes@^2.0.1, randombytes@^2.0.5:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/randombytes/-/randombytes-2.1.0.tgz#df6f84372f0270dc65cdf6291349ab7a473d4f2a"
   integrity sha512-vYl3iOX+4CKUWuxGi9Ukhie6fsqXqS9FE2Zaic4tNFD2N2QQaXOMFbuKK4QmDHC0JO6B1Zp41J0LpT0oR68amQ==
@@ -9451,12 +9458,10 @@ serialize-javascript@^2.1.0:
   resolved "https://registry.yarnpkg.com/serialize-javascript/-/serialize-javascript-2.1.0.tgz#9310276819efd0eb128258bb341957f6eb2fc570"
   integrity sha512-a/mxFfU00QT88umAJQsNWOnUKckhNCqOl028N48e7wFmo2/EHpTo9Wso+iJJCMrQnmFvcjto5RJdAHEvVhcyUQ==
 
-serialize-javascript@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/serialize-javascript/-/serialize-javascript-3.1.0.tgz#8bf3a9170712664ef2561b44b691eafe399214ea"
-  integrity sha512-JIJT1DGiWmIKhzRsG91aS6Ze4sFUrYbltlkg2onR5OrnNM02Kl/hnY/T4FN2omvyeBbQmMJv+K4cPOpGzOTFBg==
-  dependencies:
-    randombytes "^2.1.0"
+serialize-javascript@^2.1.1:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/serialize-javascript/-/serialize-javascript-2.1.2.tgz#ecec53b0e0317bdc95ef76ab7074b7384785fa61"
+  integrity sha512-rs9OggEUF0V4jUSecXazOYsLfu7OGK2qIn3c7IPBiffz32XniEp/TX9Xmc9LQfK2nQ2QKHvZ2oygKUGU0lG4jQ==
 
 serve-index@^1.9.1:
   version "1.9.1"
