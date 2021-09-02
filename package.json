@@ -12,7 +12,7 @@
     "axios": "^0.21.1",
     "browserslist": "^4.16.5",
     "glob-parent": "^5.1.2",
-    "immer": "8.0.1",
+    "immer": "9.0.6",
     "is-svg": "^4.2.2",
     "kind-of": "^6.0.3",
     "lodash": "^4.17.21",
