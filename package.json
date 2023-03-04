@@ -16,7 +16,7 @@
     "is-svg": "^4.2.2",
     "kind-of": "^6.0.3",
     "lodash": "^4.17.21",
-    "minimist": "^0.2.1",
+    "minimist": "^0.2.4",
     "node-forge": "^0.10.0",
     "node-notifier": "^8.0.1",
     "object-path": "^0.11.8",
